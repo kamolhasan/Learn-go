@@ -21,4 +21,7 @@ func main() {
 		}
 	}
 
+	if (true && true)||(false && true){
+		fmt.Println("always true")
+	}
 }
