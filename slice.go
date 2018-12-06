@@ -20,7 +20,7 @@ func main() {
 		z = append(z, int64(i))
 		fmt.Println(z)
 		fmt.Println(len(z))
-
+		//delete z[i] by followed append z[:i], z[:i+1]...
 		z=append(z[:1],z[2:]...)
 
 		fmt.Println(z)
