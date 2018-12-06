@@ -16,7 +16,7 @@ func main() {
 	fmt.Println(incriment())
 	fmt.Println(incriment())
 	fmt.Println(incriment())
-	
+
 	//closure (variable+function)
 	nxtEven := evenGen()
 	fmt.Println(nxtEven())
