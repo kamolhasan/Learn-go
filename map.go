@@ -21,12 +21,29 @@ func main() {
 	}
 	var tmp []string
 	for k, _ := range x {
-		tmp=append(tmp,k)
+		tmp = append(tmp, k)
 	}
 	sort.Strings(tmp)
 
-	for _,value:=range tmp{
-		fmt.Println("here: ",x[value])
+	for _, value := range tmp {
+		fmt.Println("here: ", x[value])
+	}
+
+	cm := map[string]map[string]string{
+		"a": map[string]string{
+			"name": "kamol",
+			"age":  "30",
+		},
+		"b": map[string]string{
+			"name": "masud",
+			"age":  "50",
+		},
+	}
+
+	if value,ck:=cm["c"];ck{
+		fmt.Println(value["name"],value["age"],ck)
+	}else {
+		fmt.Println("Not in map")
 	}
 
 }
