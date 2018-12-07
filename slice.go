@@ -21,15 +21,15 @@ func main() {
 		fmt.Println(z)
 		fmt.Println(len(z))
 		//delete z[i] by followed append z[:i], z[:i+1]...
-		z=append(z[:1],z[2:]...)
+		z = append(z[:1], z[2:]...)
 
 		fmt.Println(z)
 		fmt.Println(len(z))
 	}
 
-	ar:= [5]int{1,2,2,3,5}
+	ar := [5]int{1, 2, 2, 3, 5}
 	fmt.Println(ar)
-	ns:=ar[1:4]
+	ns := ar[1:4]
 	fmt.Println(ns)
 
 }

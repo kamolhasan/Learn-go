@@ -40,9 +40,9 @@ func main() {
 		},
 	}
 
-	if value,ck:=cm["c"];ck{
-		fmt.Println(value["name"],value["age"],ck)
-	}else {
+	if value, ck := cm["c"]; ck {
+		fmt.Println(value["name"], value["age"], ck)
+	} else {
 		fmt.Println("Not in map")
 	}
 

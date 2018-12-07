@@ -10,7 +10,7 @@ func main() {
 	s := "Good "
 	var m string = "Morning"
 	fmt.Println(s + m)
-	for i:=0;i<len(s);i++ {
+	for i := 0; i < len(s); i++ {
 		fmt.Print(string(s[i]))
 	}
 

@@ -3,9 +3,10 @@ package main
 import "fmt"
 
 var x int = 100
+
 func main() {
 	var s string
-	s="my name is kamol"
+	s = "my name is kamol"
 	fmt.Println(x)
 	f(&s)
 
